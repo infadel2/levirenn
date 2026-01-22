@@ -10,8 +10,8 @@ body {
 	
 a:link,
 a:hover,
-a:visited {color: #83AABB; text-decoration: none;} 
-a:active  {color: #AADAEF; text-decoration: underline;}
+a:visited {color: #A0A0A0; text-decoration: none;} 
+a:active  {color: #CECECE; text-decoration: underline;}
 	  
 h1 {
 	color: #CECECE;
