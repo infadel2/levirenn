@@ -11,7 +11,7 @@ if (location.hostname == "leviathan.nekoweb.org") {
   document.getElementById("follow").setAttribute('style', 'display: inline !important');
   // https://neocities.org/site/levirenn?event_id=5211517
 } else {
-  document.getElementById("switch-link").setAttribute('href', target_nw);
+  document.getElementById("domain").innerHTML = "localhost";
 }
 
 //if (location.hostname != "localhost") {
