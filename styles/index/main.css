@@ -3,6 +3,9 @@
 
 body {
   /* background-image: url('../../images/bg/main.jpg'); */
+  background-image: linear-gradient(0deg, #151515 0%, #000 100%);
+  background-position: top right;
+  background-attachment: fixed;
   background-color: #111;
   color: white;
   font-family: monospace;
@@ -154,7 +157,16 @@ a:active {color: #aaa; text-decoration: underline;}
 }
 	  
 .top-bar-active {
-	color: #ccc;
+  background-image: linear-gradient(to right, #FFADAD, 
+                                              #FFD6A5,
+                                              #FDFFB6,
+                                              #CAFFBF,
+                                              #9BF6FF,
+                                              #A0C4FF,
+                                              #BDB2FF,
+                                              #FFC6FF);
+  color: transparent !important;
+  background-clip: text;
 }
 	  
 	  /* START of Vocaloid Webring Style */
@@ -186,3 +198,9 @@ a:active {color: #aaa; text-decoration: underline;}
 	  
 	  /* END of Vocaloid Webring Style */
 	  /* god this was so annoying to stylize */
+	  
+	  /* START of Webtiles Style */
+	  
+#tile-info > div > a {
+  font-family: monospace !important;
+}
