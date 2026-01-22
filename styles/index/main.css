@@ -14,8 +14,8 @@ body {
 }
 
 .home {
-  background-color: #273742;
-/*background-color: #151515;*/
+/*background-color: #273742;*/
+  background-color: #151515;
   position: absolute;
   top: 50%;
   left: 50%;

@@ -14,7 +14,7 @@ a:visited {color: #83AABB; text-decoration: none;}
 a:active  {color: #AADAEF; text-decoration: underline;}
 	  
 h1 {
-	color: #AADAEF;
+	color: #CECECE;
 }
 	  
 .frame-image {
@@ -71,10 +71,10 @@ h1 {
   left: 110px;
 	    
   font-size: 10px;
-  color: black;
+  color: white;
   transform: rotate(12deg);
 }
 	  
 .attrib a:link,
-.attrib a:visited {color: blue !important}
+.attrib a:visited {color: darkseagreen !important}
 .attrib a:active {color: aqua !important}
