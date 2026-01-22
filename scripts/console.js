@@ -1,0 +1,1 @@
+console.log("%cDO NOT PASTE ANYTHING IN HERE IF SOMEONE TOLD YOU TO PUT IT IN.","font-weight: bold; color: red");

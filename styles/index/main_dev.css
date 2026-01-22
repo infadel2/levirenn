@@ -1,0 +1,199 @@
+      body {
+        /* background-image: url('../../images/bg/main.jpg'); */
+        background-image: linear-gradient(0deg, rgb(21, 30, 45) 0%, rgb(35, 57, 104) 100%);
+        background-position: top right;
+        background-attachment: fixed;
+        color: white;
+        font-family: Arial;
+        margin: 0;
+        overflow-y: hidden;
+      }
+
+      .home {
+        background-color: #273742;
+      /*background-color: #151515;*/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 900px;
+        height: 100%;
+        z-index: 1;
+      }
+
+      .menu-bar {
+        width: 900px;
+        height: 25px;
+        position: absolute;
+        top: -1px;
+        background-color: #3C535E;
+        z-index: 3;
+      }
+
+      .left-bar {
+        width: 200px;
+        height: 100%;
+        position: absolute;
+        background-color: #1E2A33;
+        z-index: 2;
+        color: #83AABB;
+      }
+
+      .main-css {
+        position: relative;
+        top: 24px;
+        left: 200px;
+        color: white;
+        width: 800px;
+      }
+
+      .branding {
+        background-image: url('../../images/banner/neetopia.jpg');
+        background-size: 700px;
+        background-position: 0 40%;
+        width: 700px;
+        height: 100px;
+        color: white;
+        font-family: Arial;
+        z-index: 15;
+      }
+
+      .menu-bar-textplacing {
+        position: absolute;
+        left: 7px;
+        top: 2px;
+		/* old value was top: 1px; */
+        font-weight: bold;
+        font-size: 14px;
+        z-index: 4;
+        color: #83AABB;
+      }
+
+      a:link {color: #83AABB; text-decoration: none;} a:hover {color: #83AABB; text-decoration: none;} a:visited {color: #83AABB; text-decoration: none;} a:active {color: #AADAEF; text-decoration: underline;}
+	  
+	  .centered {
+	    position: absolute; 
+	    left: calc(50% - 420px); 
+		top: calc(50% + 210px); 
+		transform: translate(-50%, -50%); 
+		z-index: 4; 
+		display: block;
+	  }
+	  
+	  .notetext {
+	    position: absolute; 
+	    left: calc(50% - 470px); 
+		top: calc(50% + 158px); 
+		transform: translate(-50%, -50%);
+		transform: rotate(8deg);
+		z-index: 5; 
+		display: block;
+		font-family: arial;
+		font-size: 12px;
+	  }
+	  
+	  .branding-bg {
+	    background-color: #000000AA;
+		width: 230px;
+		height: 100px;
+	  }
+	  
+	  .branding-bg h1 {
+	    font-family: Arial;
+		font-weight: Bold;
+		font-size: 46px;
+		position: relative;
+		left: 15px;
+		top: 9px;
+		margin: 0px;
+		text-shadow: 0px 3px #00000044;
+	  }
+	  
+	  .branding-bg span {
+	    font-family: Arial;
+		font-weight: Bold;
+		position: relative;
+		left: 15px;
+		top: 9px;
+	  	margin: 0px;
+	  	text-shadow: 0px 3px #00000044;
+	  }
+	  
+	  .button {
+	    width: 200px;
+		height: 100%;
+		position: relative;
+		top: 25px;
+		text-align: center;
+		font-size: 11px;
+	  }
+
+      .left-bar-span {
+		color: #AADAEF;
+		font-weight: bold;
+		font-size: 25px;
+	  }
+	  
+	  .top-bar-divider {
+		color: #607F8D;
+		font-size: 15px;
+	  }
+	  
+	  .top-bar-active {
+		color: #AADAEF;
+	  }
+	  
+	  /* START of Vocaloid Webring Style */
+	  
+	  .smallvocacontainer {
+	    position: relative;
+	    top: -10px;
+	  }
+	  
+	  .webring-info {
+	    text-shadow: none !important;
+	    font-family: Arial !important;
+	    font-weight: bold !important;
+	    color: #AADAEF !important;
+	    letter-spacing: normal !important; 
+	  }
+	  
+	  .webring-links a {
+	    text-shadow: none !important;
+	    
+	    font-family: Arial !important;
+	    color: #83AABB !important;
+	    letter-spacing: normal !important; 
+	  }
+	  
+	  .webring-links {
+	    color: #83AABB !important;
+	  }
+	  
+	  /* END of Vocaloid Webring Style */
+	  /* god this was so annoying to stylize */
+	  
+	  @media screen and (max-width: 700px) {
+	    body {
+	      overflow: hidden;
+	    }
+	    
+      .home {
+        width: 100% !important;
+      }
+      
+      .left-bar, *[spongechair-divider] {
+        display: none;
+      }
+      
+      .main-css {
+        position: relative;
+        left: 0px;
+      }
+      
+      #main {
+        width: 600px !important;
+        position: relative;
+        left: -280px
+      }
+	  }
