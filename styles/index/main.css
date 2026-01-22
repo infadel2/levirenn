@@ -130,6 +130,7 @@ a:active {color: #aaa; text-decoration: underline;}
 	  
 .branding-bg span {
 	font-weight: Bold;
+	font-size: 17px;
 	position: relative;
 	left: 15px;
 	top: 10px;
