@@ -3,11 +3,9 @@
 
 body {
   /* background-image: url('../../images/bg/main.jpg'); */
-  background-image: linear-gradient(0deg, rgb(21, 30, 45) 0%, rgb(35, 57, 104) 100%);
-  background-position: top right;
-  background-attachment: fixed;
+  background-color: #111;
   color: white;
-  font-family: Arial;
+  font-family: monospace;
   margin: 0;
   overflow-y: hidden;
 }
@@ -29,7 +27,7 @@ body {
   height: 26px;
   position: absolute;
   top: -2px;
-  background-color: #3C535E;
+  background-color: #333;
   z-index: 3;
 }
 
@@ -37,10 +35,16 @@ body {
   width: 200px;
   height: 100%;
   position: absolute;
-  background-color: #1E2A33;
+  background-color: #222;
   z-index: 2;
-  color: #83AABB;
+  color: #666;
   overflow: hidden;
+  font-size: 14px;
+}
+
+.left-bar ul {
+	position: relative;
+	left: -15px;
 }
 
 .main-css {
@@ -58,7 +62,6 @@ body {
   width: 700px;
   height: 100px;
   color: white;
-  font-family: Arial;
   z-index: 15;
 }
 
@@ -69,13 +72,13 @@ body {
   font-weight: bold;
   font-size: 14px;
   z-index: 4;
-  color: #83AABB;
+  color: #777;
 }
 
 a:link,
 a:hover,
-a:visited {color: #83AABB; text-decoration: none;} 
-a:active {color: #AADAEF; text-decoration: underline;}
+a:visited {color: #aaa; text-decoration: none;} 
+a:active {color: #aaa; text-decoration: underline;}
 	  
 .centered {
   position: absolute; 
@@ -113,7 +116,6 @@ a:active {color: #AADAEF; text-decoration: underline;}
 }
 	  
 .branding-bg h1 {
-  font-family: Arial;
 	font-weight: Bold;
 	font-size: 46px;
 	position: relative;
@@ -124,7 +126,6 @@ a:active {color: #AADAEF; text-decoration: underline;}
 }
 	  
 .branding-bg span {
-  font-family: Arial;
 	font-weight: Bold;
 	position: relative;
 	left: 15px;
@@ -142,18 +143,18 @@ a:active {color: #AADAEF; text-decoration: underline;}
 }
 
 .left-bar-span {
-	color: #AADAEF;
+	color: #ccc;
 	font-weight: bold;
 	font-size: 25px;
 }
 	  
 .top-bar-divider {
-	color: #607F8D;
+	color: #777;
 	font-size: 15px;
 }
 	  
 .top-bar-active {
-	color: #AADAEF;
+	color: #ccc;
 }
 	  
 	  /* START of Vocaloid Webring Style */
