@@ -1,5 +1,5 @@
 const splashesLocation = "/splashes.txt";
-
+  
 fetch(splashesLocation)
 .then(response => response.text())
 .then(text => {
@@ -8,4 +8,8 @@ fetch(splashesLocation)
   const splashesPick = splashesRay[splashesRand];
   
   document.getElementById("splash").innerHTML = splashesPick;
+})
+.catch(error => {
+  console.error("An error occured. Fallback splash will be displayed instead.\nE:", error);
+  document.getElementById("splash").innerHTML = "Sounds at Work!";
 });
