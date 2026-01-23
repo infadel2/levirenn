@@ -131,6 +131,7 @@ a:active {color: #aaa; text-decoration: underline;}
 	  
 .branding-bg {
   background-color: #000000AA;
+  font-family: Arial;
 	width: 700px;
 	height: 100px;
 }
@@ -140,7 +141,7 @@ a:active {color: #aaa; text-decoration: underline;}
 	font-size: 46px;
 	position: relative;
 	left: 15px;
-	top: 9px;
+	top: 11px;
 	margin: 0;
 	text-shadow: 0 3px #00000044;
 }
@@ -150,7 +151,7 @@ a:active {color: #aaa; text-decoration: underline;}
 	font-size: 17px;
 	position: relative;
 	left: 15px;
-	top: 10px;
+	top: 12px;
 	text-shadow: 0 3px #00000044;
 }
 	  
