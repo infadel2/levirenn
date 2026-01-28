@@ -16,4 +16,4 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-domain: 'leviathan.nekoweb.org'
           nekoweb-username: 'leviathan'
-          directory: ''
+          directory: 'public'
