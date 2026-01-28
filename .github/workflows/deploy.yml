@@ -14,6 +14,6 @@ jobs:
         uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-domain: 'leviathan.nekoweb.org'
+          nekoweb-domain: 'levirenn'
           nekoweb-username: 'leviathan'
           directory: 'public'
